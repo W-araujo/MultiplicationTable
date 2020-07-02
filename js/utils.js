@@ -12,13 +12,15 @@ function multiplication() {
     alert('Please, enter a valid number!');
   } else if (times < 1) {
     alert('Please, enter a valid number!');
-  }else{
+  } else {
 
-  msg.innerHTML = '';
-  for (let count = 1; count <= times; count++) {
+    msg.innerHTML = '';
+    for (let count = 1; count <= times; count++) {
 
-    let response = count * number;
-    msg.innerHTML += ` \u{1F449} <bold> ${number} x ${count} = <strong> ${response}</strong>  </bold><br>`
+      let response = count * number;
+      msg.innerHTML += ` \u{1F449} <bold> ${number} x ${count} = <strong> ${response}</strong>  </bold><br>`
+    }
   }
 }
-}
+
+
