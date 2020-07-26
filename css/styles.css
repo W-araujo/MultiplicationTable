@@ -8,14 +8,14 @@ body {
     height: auto;
 }
 
-nav header{
+nav header {
     text-align: center;
     margin-bottom: 30px;
     background-color: rgba(4, 4, 251, 0.787);
     padding: 10px;
 }
 
-nav header h1{
+nav header h1 {
     font-family: arial;
     font-weight: bold;
     font-size: 40px;
@@ -80,7 +80,7 @@ label {
     border-radius: 30px;
 }
 
-#res_first h6{
+#res_first h6 {
     color: red;
 }
 
@@ -117,19 +117,6 @@ strong {
     text-decoration: underline;
 }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    background: black;
-    min-height: 100px;
-    max-height: auto;
-}
-
-footer .container .row a{
-text-decoration: none;
-font-size: 15px;
-}
-
 .card {
     border: 3px solid rgba(4, 4, 251, 0.787);
     border-radius: 10px;
@@ -141,4 +128,51 @@ font-size: 15px;
 
 .card-text {
     color: green;
+}
+
+section {
+    text-align: center;
+    margin-top: 30px;
+    background: black;
+    min-height: 100px;
+    max-height: auto;
+}
+
+section .container .row a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+article {
+    background-image: linear-gradient(to right bottom, #0404fb, #0082ff, #00afff, #00d2a2, #45eb31);
+    padding: 30px;
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+}
+
+article p{
+    font-size: 19px;
+}
+
+article a {
+    font-size: 17px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+aside {
+    padding: 10px;
+    background: #e5edf0;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
 }
